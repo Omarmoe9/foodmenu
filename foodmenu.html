@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+
+
+    <title>Food table menu</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="This page is a webpage to learn HTML">
+    <meta name="keywords" content="html5,udemy,learn code">
+
+    <meta name="author" content="Omar Kheir">
+
+
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+  body h1{
+
+      background-color:#c00;
+
+      font-family: 'The Nautigal',cursive;
+  }
+
+  body{
+
+      background:#0c0;
+  }
+
+   main h2 {
+
+      color:#00F;
+  }
+
+  #main-header h1{
+      border:3px solid #000;
+      margin:0px;
+  }
+
+  main table{
+    border:3px solid #000;
+  }
+
+  </style>
+
+
+
+
+
+
+
+
+
+
+
+
+  </head>
+  <body>
+
+  <script>
+
+    console.log{"Hello world"};
+
+
+  </script>
+
+    <header id="main-header">
+    <header height="100">
+      <h1>Welcome to Arabitica Taco!!</h1>
+      <img src="taco.png" height=300, width= 200/>
+      <h4><i>"With experience comes perfection"</i></h4>
+
+
+
+
+    </header>
+
+    <main>
+
+      <table border ="1px">
+        <thead>
+          <tr>
+
+            <th>Type</th>
+            <th>Ingredients</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Beef Tacos</td>
+            <td>Beef,Tomato,cheese,lettuce and salsa</td>
+            <td>$3.99</td>
+          </tr>
+          <tr>
+
+            <td>Chicken Tacos</td>
+            <td>Grilled Chicken, Tomato, cheese, lettuce and salsa</td>
+            <td>$2.99</td>
+          </tr>
+
+          <tr>
+            <td>Shrimp Tacos </td>
+            <td>Shrimps, Tomato, cheese, letuce and salsa</td>
+            <td>$4.99</td>
+          </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </table>
+
+
+
+
+    </main>
+      <br>
+      <br>
+
+    <main>
+      <section id="contact-form">
+        <h2>Place Order</h2>
+
+        <form method="GET" action="place-order.php">
+          <input name="name1" placeholder="Name" class="sm-input"/><br/>
+          <input name="address1" placeholder="Address Line 1" class="lg-input"/><br/>
+          <input name="address2" placeholder="Address Line 2" class="lg-input"/><br/>
+          <input name="city" placeholder="City" class="sm-input"/><br/>
+          <input name="province" placeholder="Province" class="sm-input"/><br/>
+          <input name="postal code" placeholder="Postal code" class="sm-input"/><br/>
+
+          <h4>Size</h4>
+          <select name="size">
+              <option value="12">12" - $11.99 (small)</option>
+              <option value="16">16" - $15.99 (Medium)</option>
+              <option value="18">18" - $20.99 (Large)</option>
+              <option value="24">24" - $28.99 (X-Large)</option>
+
+
+          </select>
+
+          <h4>Type of Taco</h4>
+          <input name="Beef" type="checkbox"/> Beef
+          <input name="Chicken" type="checkbox"/> Chicken
+          <input name="Shrimp" type="checkbox"/> Shrimp
+
+          <h4>Ingredients</h4>
+          <input name="ingredients" type="checkbox" value="tomato"/> Tomato
+          <input name="ingredients" type="checkbox" value="lettuce"/> Lettuce
+          <input name="ingredients" type="checkbox" value="cheese"/> Cheese
+          <input name="ingredients" type="checkbox" value="salsa"/> Salsa
+
+          <h4>Method of Delievery</h4>
+          <input name="deliveryMethod" type="radio" value="pickup"/> Store Pickup
+          <input name="deliveryMethod" type="radio" value="delivery"/> Delievery
+
+          <h4>Method of Payment</h4>
+          <input name="paymentMethod" type="radio" value="Visa"/> Visa
+          <input name="paymentMethod" type="radio" value="MasterCard"/> MasterCard
+          <input name="paymentMethod" type="radio" value="Debit"/> Debit
+          <input name="paymentMethod" type="radio" value="AMEX"/> AMEX
+          <input name="paymentMethod" type="radio" value="Cash"/> Cash
+
+
+        </br>
+      </br>
+
+          <button type="submit order">Place Order</button>
+
+
+
+
+
+        </form>
+
+      </section>
+
+      <h1>Beef Tacos</h1>
+      <p><i>("Buy 2 tacos for the price of 1!")</i></p>
+      <img src="beef.jpg" height=100 width=200 />
+
+      <br>
+
+      <h1>Chicken Tacos</h1>
+      <p><i>("Buy 2 tacos for the price of 1!")</i></p>
+      <img src="chicken.jpg" height=100 width=200 />
+
+      <br>
+
+      <h1> Shrimp Tacos</h1>
+      <p><i>("Buy 2 tacos for the price of 1!")</i></p>
+      <img src="shrimp.jpg" height=100 width=200 />
+
+      <br>
+
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      </main>
+
+      <main>
+
+
+        <section>
+          <audio width="540" height="320" controls>
+
+            <source src="./music/myvoice.mp3" type="music/mp3">
+
+
+
+          </audio>
+        </section>
+
+
+
+
+
+
+
+      </main>
+
+      <main>
+
+        <section id="top-stories">
+          <article>
+            <img src="taco.png" height=200 width=100/>
+            <h3>History and information about Tacos!!</h3>
+            <p>This is our taco history and information, please refer to this website for more info... <a href="https://www.twistedtaco.com/the-history-of-the-taco">Taco History and more</a></p>
+
+
+
+        </section>
+      </article>
+
+
+
+      </main
+
+
+      <footer>
+        <center>&copy; 2022<br/>
+          <a href="#">Terms of Service</a>
+        </center>
+
+
+
+      </footer>
+
+
+  </body>
+</html>
